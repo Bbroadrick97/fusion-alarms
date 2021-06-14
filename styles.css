@@ -24,7 +24,7 @@ a {
 #main-img {
   position: absolute;
   z-index:-1;
-  width:100%;
+  width:900px;
   background-repeat: no-repeat;
 }
 

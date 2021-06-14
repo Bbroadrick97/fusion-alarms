@@ -25,6 +25,7 @@ a {
   position: absolute;
   z-index:-1;
   width:100%;
+  background-repeat: no-repeat;
 }
 
 #h1-text {

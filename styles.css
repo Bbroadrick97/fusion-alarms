@@ -44,13 +44,13 @@ top: 15vw;
   #h1-text {
     font-size: 4vw;
   }
-
-  #main-img {
-    
-    max-width: 100%;
-  }
 }
 
+@media (max-width: 480px) {
+  #main-img {
+    background-image: url(/Images/header-img.jpg);
+    background-repeat: no-repeat;
+    background-size: contain ;
 
 /* Header Menu */
 

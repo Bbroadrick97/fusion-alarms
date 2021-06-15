@@ -46,8 +46,8 @@ top: 15vw;
   }
 
   #main-img {
-    width:fit-content
-    height:fit-content
+    object-fit: scale-down; 
+    max-width: 100%
   }
 }
 

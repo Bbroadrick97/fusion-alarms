@@ -22,12 +22,12 @@ a {
 }
 
 #main-img {
-  position: absolute;
-  z-index:1;
-  max-width:100%;
-  height:auto;
-  background-repeat: no-repeat;
-}
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+    z-index:-1;
+    position:absolute;
+  }
 
 #h1-text {
 z-index: 100;

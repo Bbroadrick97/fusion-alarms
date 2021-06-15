@@ -23,8 +23,9 @@ a {
 
 #main-img {
   position: absolute;
-  z-index:-1;
-  width:900px;
+  z-index:1;
+  width:100%;
+  height:70em;
   background-repeat: no-repeat;
 }
 

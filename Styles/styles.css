@@ -4,15 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.menu-wrap {
-display: grid;
-  grid-template: 1fr / 1fr;
-  place-items: center;
-}
 
-.menu-wrap > * {
-  grid-column: 1 / 1;
-  grid-row: 1 / 1;
 }
 /*menu*/
 
@@ -110,7 +102,7 @@ nav ul li a:hover, nav ul li a:focus {
 }
 /*Main Image and Headline*/
 
-.menu-wrap #main-header {
+#main-header {
   position: relative;
   text-align: center;
   background: white;
@@ -150,7 +142,7 @@ hr {
 
 h2 {
   position: absolute;
-  top:23%;
+  top:42%;
   left:28%;
   color:black;
   font-family: 'Raleway', sans-serif;
@@ -160,9 +152,9 @@ h2 {
   display: block;
 }
 
-.menu-wrap #button-container {
+#button-container {
   position:relative;
-  margin-top:20px;
+  margin-top:0%;
 }
 
 button {
@@ -172,7 +164,7 @@ button {
     border-radius:100px 100px 100px 100px;
     margin: 0;
   position: absolute;
-  top: 37%;
+  top: 10%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);

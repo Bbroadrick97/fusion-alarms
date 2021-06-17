@@ -122,13 +122,13 @@ h1 {
   color:black;
   z-index:1;
   font-family: 'Raleway', sans-serif;
-  font-size:1.5em;
+  font-size:1em;
   text-align:left;
   margin-right:30px;
 }
 
 hr {
-  height:1.5px;
+  height:1px;
   position:absolute;
   width:40vw;
   border-color: rgb(60, 139, 230);
@@ -144,7 +144,7 @@ h2 {
   left:28%;
   color:black;
   font-family: 'Raleway', sans-serif;
-  font-size:.90em;
+  font-size:.7em;
   text-align:left;
   margin-right:30px;
 }

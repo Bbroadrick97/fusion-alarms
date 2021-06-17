@@ -167,6 +167,7 @@ button {
   text-align:center;
   color:white;
   font-family: 'Raleway', sans-serif;
+  white-space: nowrap;
   
     
   }

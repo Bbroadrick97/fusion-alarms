@@ -147,6 +147,7 @@ h2 {
   font-size:.7em;
   text-align:left;
   margin-right:30px;
+  display: block;
 }
 
 #button-container {
@@ -184,6 +185,7 @@ h3 {
   margin-left:20%;
   margin-right:20%;
   position:absolute;
+  display: block;
 }
 
 #h3-desc {
@@ -195,4 +197,18 @@ text-align:center;
 margin-left:10px;
 margin-right:10px;
 font-size:.85em;
+position:absolute;
+display: block;
+}
+
+.icon-container {
+  position:relative;
+  margin-top: 180px;
+}
+
+#icons {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  text-align: center;
 }

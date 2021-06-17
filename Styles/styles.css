@@ -34,12 +34,13 @@ nav {
   top:70px;
   left:0;
   width: 100%;
+  z-index:100;
 }
 
 nav ul {
   list-style-type: none;
   max-height:0;
-  overflow:hidden;
+  overflow: hidden;
   
 }
 nav ul li {
@@ -47,11 +48,12 @@ nav ul li {
 }
 nav ul li a {
   display: inline-block;
-  padding: 12px;
+  padding: 9px;
   /* Add your custom styles below to change appearance of links */
   color: white;
   text-decoration: none;
   letter-spacing: 0.05em;
+  font-family: 'Raleway', sans-serif;
 }
 nav ul li a:hover, nav ul li a:focus {
   color: black;
@@ -67,30 +69,82 @@ nav ul li a:hover, nav ul li a:focus {
   transition: all 0.5s;
 }
 
+@media (min-width: 960px) {
+}
+
+@media (min-width: 960px) {
+  .menu-icon {
+     display: none;
+  }
+}
+
+@media (min-width: 960px) {
+  nav {
+    position: relative;
+    top:-10px;
+    background-color: transparent;
+  }
+  nav ul {
+    max-height: 70px;
+    padding: 15px 0;
+    text-align: right;
+  }
+  nav ul li {
+    display: inline-flex;
+    padding-left: 20px;
+  }
+
+  nav ul li a {
+    color:black;
+    font-family: 'Raleway', sans-serif;
+  }
+}
 /*Main Image and Headline*/
 
 #main-header {
   position: relative;
   text-align: center;
   background: white;
+  z-index:-5;
 }
 
 #background {
   width: 100%;
   height: auto;
   opacity: 0.8;
+  z-index:-5;
 }
 
 h1 {
   position: absolute;
-  top:20%;
-  left:30%;
+  top:15%;
+  left:28%;
   color:black;
+  z-index:1;
+  font-family: 'Raleway', sans-serif;
+  font-size:1.5em;
+  text-align:left;
+  margin-right:30px;
+}
+
+hr {
+  height:1.5px;
+  position:absolute;
+  width:40vw;
+  border-color: rgb(60, 139, 230);
+  top: 14vw;
+  left:28%;
+
+
 }
 
 h2 {
   position: absolute;
-  top:40%;
-  left:30%;
+  top:45%;
+  left:28%;
   color:black;
+  font-family: 'Raleway', sans-serif;
+  font-size:.90em;
+  text-align:left;
+  margin-right:30px;
 }

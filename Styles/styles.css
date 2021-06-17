@@ -69,7 +69,28 @@ nav ul li a:hover, nav ul li a:focus {
 
 /*Main Image and Headline*/
 
-#background  {
-  width: 150%;
-  height: 400px;
+#main-header {
+  position: relative;
+  text-align: center;
+  background: white;
+}
+
+#background {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+h1 {
+  position: absolute;
+  top:20%;
+  left:30%;
+  color:black;
+}
+
+h2 {
+  position: absolute;
+  top:40%;
+  left:30%;
+  color:black;
 }

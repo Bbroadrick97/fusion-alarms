@@ -45,18 +45,20 @@ nav ul {
   overflow: hidden;
   
 }
+
 nav ul li {
   padding: 0 15px;
 }
+
 nav ul li a {
   display: inline-block;
   padding: 9px;
-  /* Add your custom styles below to change appearance of links */
   color: white;
   text-decoration: none;
   letter-spacing: 0.05em;
   font-family: 'Raleway', sans-serif;
 }
+
 nav ul li a:hover, nav ul li a:focus {
   color: black;
 }
@@ -86,11 +88,13 @@ nav ul li a:hover, nav ul li a:focus {
     top:-10px;
     background-color: transparent;
   }
+
   nav ul {
     max-height: 70px;
     padding: 15px 0;
     text-align: right;
   }
+
   nav ul li {
     display: inline-flex;
     padding-left: 20px;
@@ -101,71 +105,70 @@ nav ul li a:hover, nav ul li a:focus {
     font-family: 'Raleway', sans-serif;
   }
 }
-/*Main Image and Headline*/
 
-#main-header {
-  position: relative;
-  text-align: center;
-  background: white;
-  z-index:-1;
-  
-}
+/*Main Image and Headline*/
 
 #background {
   width: 100%;
   height: auto;
-  opacity: 0.8;
+  margin-top:0%;
+  position:relative;
   z-index:-5;
+  float:left;
+  clear:none; 
+}
+
+#main-container {
+  background-color:white;
+  height:230px;
+  position:relative;
+  width:100%;
+  top:0;
+  float:left;
+  clear:none; 
 }
 
 h1 {
   position: absolute;
-  top:15%;
-  left:28%;
+  top:10%;
   color:black;
   z-index:1;
   font-family: 'Raleway', sans-serif;
-  font-size:1em;
-  text-align:left;
-  margin-right:30px;
+  font-size:1.25em;
+  text-align:center;
+  margin-right: 10%;
+  margin-left:10%;
 }
 
 hr {
   height:.5px;
   position:absolute;
   width:40vw;
-  border-color: rgb(60, 139, 230);
+  border-color: rgb(55, 165, 255);
   top: 13vw;
   left:28%;
-
-
 }
 
 h2 {
   position: absolute;
-  top:42%;
-  left:28%;
+  top:40%;
   color:black;
   font-family: 'Raleway', sans-serif;
-  font-size:.7em;
-  text-align:left;
-  margin-right:30px;
+  font-size:1em;
+  text-align:center;
+  margin-right: 10%;
+  margin-left:10%;
   display: block;
 }
 
-#button-container {
-  position:relative;
-  margin-top:0%;
-}
-
-button {
-    padding: 2vw 20vw;
-    background: rgb(60, 139, 230);
-    border: none;
-    border-radius:100px 100px 100px 100px;
-    margin: 0;
+#main-button {
+  padding: 4vw 8vw;
+  background: rgb(55, 165, 255);
+  border: none;
+  border-radius:100px 100px 100px 100px;
+  margin: 0;
   position: absolute;
-  top: 10%;
+  top: 70%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -174,75 +177,90 @@ button {
   font-family: 'Raleway', sans-serif;
   white-space: nowrap;
   
-    
   }
 
-.container {
-  position:relative;
+  @media (max-width: 960px) {
+    hr {
+      display:none;
+    }
+  }
+
+/* Second Container */
+
+#container-2 {
+  background-color:rgb(55, 165, 255);
+  height:600px;
+  position:absolute;
+  width:100%;
+  top:80%;
+  float:left;
+  clear:none;
 }
     
 h3 {
   text-align:center;
   font-family: 'Raleway', sans-serif;
+  font-size:1.20em;
+  top:5%;
+  margin-left:10%;
+  margin-right:10%;
+  position:absolute;
+  display: block;
+  color:white;
+}
+
+#h3-desc {
+  color:white;
+  font-family:'Raleway', sans-serif;
+  top:15%;
+  position:absolute;
+  text-align:center;
+  margin-left:10%;
+  margin-right:10%;
   font-size:1em;
-  margin-top:40px;
-  margin-left:20%;
-  margin-right:20%;
   position:absolute;
   display: block;
 }
 
-#h3-desc {
-color:black;
-font-family:'Raleway', sans-serif;
-margin-top:100px;
-position:absolute;
-text-align:center;
-margin-left:10%;
-margin-right:10%;
-font-size:.85em;
-position:absolute;
-display: block;
+#container-3 {
+  position:absolute;
+  top: 105%;
+  width:100%;
+  height:100px;
 }
 
-.icon-container {
-  position:relative;
-  margin-top: 180px;
-  margin-left:0%;
-margin-right:27%;
-}
-
-#icons {
-  width: 140%;
+#integration {
+  width: 100%;
   height: auto;
   position: absolute;
-  text-align: center;
+  z-index:100;
 }
 
-#blue-container {
-  position:relative;
-  background-color:rgb(60, 139, 230);
+/*Icon Map*/
+
+#container-4 {
+  position:absolute;
+  top: 105%;
   width:100%;
-  height:50px;
-  z-index:20;
-  margin-top:460px;
-  height:400px;
+  height:100px;
 }
 
 h4 {
   position:absolute;
-  margin-top:10%;
-  color:white;
+  top:420%;
+  color:black;
   font-family:'Raleway', sans-serif;
   text-align:center;
   margin-left:10%;
   margin-right:10%;
   font-size:1.2em;
-
-
 }
 
-
-
-
+#icon-img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top:500%;
+  
+}
 

@@ -117,7 +117,7 @@ nav ul li a:hover, nav ul li a:focus {
 
 #main-container {
   background-color:white;
-  height:230px;
+  height:300px;
   position:absolute;
   width:100%;
   top:45%;
@@ -165,7 +165,7 @@ h2 {
   border-radius:100px 100px 100px 100px;
   margin: 0;
   position: absolute;
-  top: 72%;
+  top: 80%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -189,7 +189,7 @@ h2 {
   height:600px;
   position:absolute;
   width:100%;
-  top:80%;
+  top:90%;
   float:left;
   clear:none;
 }
@@ -221,7 +221,7 @@ h3 {
 
 #container-3 {
   position:absolute;
-  top: 105%;
+  top: 115%;
   width:100%;
   height:100px;
 }
@@ -237,7 +237,7 @@ h3 {
 
 #container-4 {
   position:absolute;
-  top: 105%;
+  top: 120%;
   width:100%;
   height:100px;
 }

@@ -16,6 +16,9 @@ header {
   height: .5%;
   background-color: white;
   padding: 10px 0;
+  position:sticky;
+  z-index:100000;
+
 }
 
 .menu-wrap {
@@ -35,12 +38,12 @@ header {
 }
 
 nav {
-  position: absolute;
+  position:absolute;
   background-color: #3D4852;
   top:70px;
   left:0;
   width: 100%;
-  z-index:100;
+  
 }
 
 nav ul {
@@ -116,20 +119,20 @@ nav ul li a:hover, nav ul li a:focus {
   width: 100%;
   height: auto;
   position:relative;
-  top:7%;
+
 }
 
 #main-container {
   background-color:white;
-  height:80%;
   width:100%;
   top:0%;
+  text-align:center;
 
 }
 
 h1 {
   position: relative;
-  top:20%;
+  padding-top:5%;
   color:black;
   z-index:1;
   font-family: 'Raleway', sans-serif;
@@ -137,11 +140,12 @@ h1 {
   text-align:center;
   margin-right: 10%;
   margin-left:10%;
+  padding-bottom:1.5%;
 }
 
 h2 {
   position: relative;
-  top:30%;
+  top:40%;
   color:black;
   font-family: 'Raleway', sans-serif;
   font-size:1em;
@@ -149,31 +153,42 @@ h2 {
   margin-right: 10%;
   margin-left:10%;
   display: block;
+  padding-bottom:1%;
 }
 
-#main-button {
-  padding: 4vw 8vw;
-  background: rgb(55, 165, 255);
-  border: none;
-  border-radius:100px 100px 100px 100px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+a.button1 {
+  display:inline-block;
+  padding:0.8em 1em;
+  margin:1em 0.3em 0.3em 1em;
+  border-radius: 100px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Raleway', sans-serif;
+  font-weight:1em;
+  color:#FFFFFF;
+  background-color:rgb(55, 165, 255);
   text-align:center;
-  color:white;
-  font-family: 'Raleway', sans-serif;
-  white-space: nowrap;
-  
+  transition: all 0.2s;
+  position: relative;
   }
+
+  a.button1:hover{
+  background-color:#4095c6;
+  }
+
+  @media all and (max-width:30em){
+   a.button1 {
+  display:block;
+  margin:0.2em auto;
+  }
+}
 
 /* Second Container */
 
 #container-2 {
   background-color:rgb(55, 165, 255);
   height:80%;
-  top:0%;
+  margin-top:10%;
   max-width:100%;
   
 }

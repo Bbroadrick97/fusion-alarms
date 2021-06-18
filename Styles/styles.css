@@ -224,7 +224,7 @@ h3 {
   position: relative;
   z-index:100;
   float:left;
-  top:15%;
+  padding-top:15%;
 }
 
 /*Icon Map*/

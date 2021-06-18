@@ -117,7 +117,7 @@ nav ul li a:hover, nav ul li a:focus {
 
 #main-container {
   background-color:white;
-  height:300px;
+  height:300vw;
   position:absolute;
   width:100%;
   top:45%;
@@ -127,7 +127,7 @@ nav ul li a:hover, nav ul li a:focus {
 
 h1 {
   position: absolute;
-  top:10%;
+  top:3%;
   color:black;
   z-index:1;
   font-family: 'Raleway', sans-serif;
@@ -148,7 +148,7 @@ hr {
 
 h2 {
   position: absolute;
-  top:40%;
+  top:10%;
   color:black;
   font-family: 'Raleway', sans-serif;
   font-size:1em;
@@ -165,7 +165,7 @@ h2 {
   border-radius:100px 100px 100px 100px;
   margin: 0;
   position: absolute;
-  top: 80%;
+  top: 25%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);

@@ -170,6 +170,7 @@ a.button1 {
   text-align:center;
   transition: all 0.2s;
   position: relative;
+  top:70%;
   }
 
   a.button1:hover{

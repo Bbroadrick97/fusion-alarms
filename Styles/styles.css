@@ -111,19 +111,16 @@ nav ul li a:hover, nav ul li a:focus {
 #background {
   width: 100%;
   height: auto;
-  margin-top:0%;
-  position:relative;
-  z-index:-5;
-  float:left;
-  clear:none; 
+  position:absolute;
+  top:10%;
 }
 
 #main-container {
   background-color:white;
   height:230px;
-  position:relative;
+  position:absolute;
   width:100%;
-  top:0;
+  top:40%;
   float:left;
   clear:none; 
 }
@@ -168,7 +165,7 @@ h2 {
   border-radius:100px 100px 100px 100px;
   margin: 0;
   position: absolute;
-  top: 70%;
+  top: 72%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);

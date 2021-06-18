@@ -159,7 +159,7 @@ h2 {
 a.button1 {
   display:inline-block;
   padding:0.8em 1em;
-  margin:1em 0.3em 0.3em 1em;
+  margin:1em 0.3em 0.3em 0em;
   border-radius: 100px;
   box-sizing: border-box;
   text-decoration:none;
@@ -171,6 +171,7 @@ a.button1 {
   transition: all 0.2s;
   position: relative;
   top:70%;
+  margin-bottom:8%;
   }
 
   a.button1:hover{

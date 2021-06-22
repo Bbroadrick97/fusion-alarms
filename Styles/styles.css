@@ -318,7 +318,13 @@ h3 {
     display:inline-block;
 
   }
-
+  #int-desc {
+    position:absolute;
+    color:black;
+    top:80%;
+    text-align:center;
+    z-index:1;
+  }
 
 }   
 
@@ -350,14 +356,19 @@ h4 {
 
 }
 
-#int-desc {
-  position:absolute;
-  color:black;
-  top:80%;
-  text-align:center;
-  z-index:1;
+@media (max-width: 980px) {
+
+  #int-desc {
+    display: none;
+  }
+  #icon-img {
+    display: none;
+  }
+h4 {
+  display:none;
 }
 
+}
 @media (min-width: 980px) {
   h4 {
     position:relative;
@@ -393,10 +404,12 @@ h4 {
 
 }
 /*---------------------------- Services List ------------------------------*/
+
+  
 #large-white-container {
   background-color: white;
   position: relative;
-  height:1500px;
+  height:125vw;
   z-index: -5;
 }
 
@@ -409,6 +422,7 @@ h4 {
   position: absolute;
   border-radius: 20px;
   z-index: 4;
+  margin-top:10%;
 }
 
 #video {
@@ -614,13 +628,117 @@ border-radius:10px;
   font-size:1em;
 }
 
-/*------------------------ Logos -------------------------------*/
+
+
+/*-------------------------MOBILE ICONS---------------------------*/
+@media (max-width: 980px) {
+
+  #large-white-container {
+    background-color: white;
+    text-align: center;
+  }
+  #blue-box-1 {
+    display: none;
+  }
+  #blue-box-2 {
+    display: none;
+  }
+  #blue-box-3 {
+    display: none;
+  }
+
+  #burg {
+    width:100%;
+    height:50%;
+    position:absolute;
+    text-align:center;
+    top:360%;
+    left:0;
+    
+  }
+
+  #burg-text-container {
+    top:400%;
+    left:0;
+    width:100%;
+    height:180vw;
+  }
+
+  #access {
+    width:100%;
+    height:auto;
+    position:absolute;
+    text-align: center;
+    left:0;
+    top:185%;
+  }
+
+  #access-text-container {
+    top:220%;
+    left:0;
+    width:100%;
+    height:170vw;
+    position:absolute;
+    margin-right:4%;
+  }
+
+  #video {
+width:100%;
+height:auto;
+position:absolute;
+text-align:center;
+top:5%;
+left:0;
+
+  }
+
+  .text-container {
+    left:0;
+    width:100%;
+    height:150vw;
+    top:60%;
+    position: absolute;
+  
+  }
+
+  h5 {
+    top:2%;
+  }
+
+  h6 {
+    top:20%;
+  }
+
+  #h7 {
+    top:32%;
+    font-size: 1.2em;
+  }
+
+  #video-bttn {
+    width:50%;
+    font-size:1.2em;
+  }
+
+  #h7-burg {
+    padding-top:20%;
+    font-size:1.23em;
+  }
+
+  #h7-access {
+    font-size:1.2em;
+    margin-right:2%;
+  }
+
+
+}
+
+/*------------------------ Logos -------------------------------
 
 #logos-container {
   background-color: white;
-  height:800px;
   width:100%;
   position:relative;
+  background-color: green;
 }
 
 #logos-heading {
@@ -629,6 +747,7 @@ border-radius:10px;
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
+  top:0%;
 }
 
 .logo {
@@ -659,3 +778,5 @@ border-radius:10px;
 #hikvision {
   left:20%;
 }
+
+*/

@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin-left:8%;
+  margin-right:8%;
+  text-align: center;
+}
+
+header {
+  height: 80px;
+  background-color: transparent;
+  padding: 10px 0;
+}
+
+.menu-wrap {
+  display: flex; /*makes sure child elements occupy all space horizontally*/
+  justify-content: space-between; /*stretches child elements as far as possible*/
+  padding: 0 15px;
+}
+
+.logo-img {
+  height: 70px;
+}
+
+.menu-icon {
+  font-size: 2.4em;
+  color: black;
+  line-height: 50px;
+}
+
+nav {
+  position:absolute;
+  background-color: #3D4852;
+  top:70px;
+  left:0;
+  width: 100%;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  max-height: 0;
+  overflow: hidden;
+  
+}
+
+nav ul li {
+  padding: 0 15px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 9px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  color: black;
+}
+
+#checkbox {
+  display: none;
+}
+
+#checkbox:checked ~ nav ul {
+  max-height: 200px;
+  padding: 15px 0;
+  transition: all 0.5s;
+}
+
+@media (min-width: 1020px) {
+  .logo-img {
+    width:15%;
+    height:auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .menu-icon {
+     display: none;
+  }
+}
+
+@media (min-width: 1020px) {
+  nav {
+    position: relative;
+    top:-10px;
+    background-color: transparent;
+  }
+
+  nav ul {
+    max-height: 70px;
+    padding: 15px 0;
+    text-align: right;
+  }
+
+  nav ul li {
+    display: inline-flex;
+    padding-left: 20px;
+  }
+
+  nav ul li a {
+    color:black;
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+.main {
+  font-size: 1.4rem;
+  padding-bottom: 3%;
+}
+
+.main h1 {
+  padding-bottom:3%;
+  padding-top:3%;
+}
+
+.main p {
+  padding:3%;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items:center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 45rem;
+  border-radius:10px;
+  display: block;
+  text-align:center;
+  margin:0 auto;
+  position: relative;
+  font-size: 1.25rem;
+}
+
+.card button {
+  background-color:white;
+  color:black;
+  text-decoration: none;
+  width:50%;
+  height:3rem;
+  border:none;
+  border-radius:100px;
+  font-size: 1rem;
+  position:absolute;
+  top:80%;
+  left:25%;
+}
+
+.card h2 {
+  padding-bottom:10%;
+  padding-top:10%;
+}
+.card p {
+  padding-bottom: 3%;
+}
+
+@media (min-width: 800px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+#camera-img {
+  width:50%;
+  border-radius:30px;
+}
+
+#access-img {
+  width:50%;
+  border-radius:30px;
+}
+
+#burg-img {
+  width:50%;
+  border-radius:30px;
+}
+#fire-img {
+  width:50%;
+  border-radius:30px;
+}
+
+#paging-img {
+  width:50%;
+  border-radius:30px;
+}

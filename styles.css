@@ -201,6 +201,8 @@ nav ul li a:hover, nav ul li a:focus {
 @media (min-width: 1300px) {
   .background button {
     top:55%;
+    width:30%;
+    height:8%;
   }
 
   header {

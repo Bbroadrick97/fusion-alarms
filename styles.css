@@ -281,6 +281,12 @@ height:auto;
   font-weight:500;
   padding-top:20px;
 }
+
+@media (min-width: 1000px) {
+  .services {
+    font-size:3rem;
+  }
+}
 .cards {
   max-width: 1200px;
   margin: 0 auto;
@@ -320,6 +326,11 @@ height:auto;
   font-family: 'Raleway',sans-serif;
 }
 
+@media (min-width: 1000px) {
+  .card button {
+    font-size:1.5rem;
+  }
+}
 .card h3 {
   padding-bottom:5%;
   padding-top:10%;
@@ -418,4 +429,29 @@ font-family: 'raleway', sans-serif;
   border-radius:100px;
   width:90%;
   height:30px;
+}
+
+@media (min-width: 1000px) {
+  .col-1 {
+    font-size:1.3rem;
+    left:10%;
+    top:20%;
+  }
+
+  .col-2 {
+    font-size:1.3rem;
+    left:40%;
+    top:20%;
+  }
+
+  .col-3 {
+    font-size:1.3rem;
+    left:70%;
+    top:20%;
+  }
+
+  .col-3 button {
+    top:140%;
+    left:0;
+  }
 }

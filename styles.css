@@ -1,4 +1,5 @@
 
+ 
  * {
   margin: 0;
   padding: 0;
@@ -329,10 +330,6 @@ height:auto;
   font-family: sans-serif;
   font-weight: 800;
   font-size:1.3rem;
-}
-
-.card p {
-  font-size:1.2rem;
 }
 
 @media (min-width: 800px) {

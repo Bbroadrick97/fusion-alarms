@@ -313,7 +313,7 @@ height:auto;
   border-radius:100px;
   font-size: 1rem;
   position:absolute;
-  top:90%;
+  top:92%;
   left:25%;
   font-family: 'Raleway',sans-serif;
 }
@@ -332,9 +332,6 @@ height:auto;
   font-size:1.3rem;
 }
 
-.card p {
-  padding-bottom:5px;
-}
 
 @media (min-width: 800px) {
   .cards { grid-template-columns: repeat(2, 1fr); }

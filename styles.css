@@ -332,6 +332,10 @@ height:auto;
   font-size:1.3rem;
 }
 
+.card p {
+  padding-bottom:5px;
+}
+
 @media (min-width: 800px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
 }
